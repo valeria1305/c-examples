@@ -38,5 +38,7 @@ int funcion3(int x) {
 
 int funcion5(int x) {
     printf("en funcion5");
+int funcion4(int x) {
+    printf("En funcion4()");
     return x;
 }
