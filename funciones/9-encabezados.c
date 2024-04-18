@@ -35,3 +35,8 @@ int funcion3(int x) {
     int y = x + 2;
     return y;
 }
+
+int funcion4(int x) {
+    printf("En funcion4()");
+    return x;
+}
