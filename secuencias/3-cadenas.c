@@ -22,7 +22,7 @@ int main() {
     printf("----\n");
 
     /* Imprime cadena carácter por carácter */
-    for(i = 0; i < strlen(cadena); i++) {
+    for(i = 0; i < 30; i++) {
         putchar(cadena[i]);
         putchar('\n');
     }

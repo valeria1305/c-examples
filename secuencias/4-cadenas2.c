@@ -30,10 +30,10 @@ int main() {
     /* Trate de modificar elementos dentro del arreglo */
     
     /* Esto si funciona */
-    const1[0] = 'e';
+    // const1[0] = 'e';
     
     /* Esto da error */
-    // const2[0] = 'e';
+    const2[0] = 'e';
 
     /* Imprime las cadenas */
     puts(const1);
