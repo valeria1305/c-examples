@@ -1,0 +1,27 @@
+// El sucesor es el menor del subárbol derecho, y el predecesor es el mayor del subárbol izquierdo.
+
+     20
+    /  \
+   10   30
+  / \   / \
+ 5  15 25  35
+      \
+      18
+
+// Reemplazo con el sucesor
+     25
+     / \
+    10   30
+   / \    \
+  5  15    35
+      \
+       18
+
+
+// Reemplazon con el predecesor
+     18
+    /  \
+   10   30
+  / \   / \
+ 5  15 25  35
+      
