@@ -16,6 +16,10 @@ int main() {
     printf("v = %d\n", v);
     printf("r = %d\n", r);
 
+    v = funcion5(10);
+
+    printf("v = %d\n, v");
+
     return 0;
 
 }
@@ -46,5 +50,7 @@ int funcion4(int x) {
 }
 
 int funcion5(int x) {
-    printf("en funcion5");
+    printf("en funcion5...\n");
+    int y = x + 5;
+    return y;
 }
